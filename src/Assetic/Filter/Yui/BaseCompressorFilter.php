@@ -11,6 +11,9 @@
 
 namespace Assetic\Filter\Yui;
 
+require_once __DIR__ . '/../../../../vendor/symfony/process/Symfony/Component/Process/ProcessBuilder.php';
+require_once __DIR__ . '/../../../../vendor/symfony/process/Symfony/Component/Process/Process.php';
+
 use Assetic\Asset\AssetInterface;
 use Assetic\Filter\FilterInterface;
 use Assetic\Exception\FilterException;
