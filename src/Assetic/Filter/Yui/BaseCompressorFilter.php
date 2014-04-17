@@ -65,6 +65,7 @@ abstract class BaseCompressorFilter implements FilterInterface
     {
         $pb = new ProcessBuilder(array(
             $this->javaPath,
+            '-Xmx1G',
             '-jar',
             $this->jarPath,
         ));
